@@ -1,7 +1,5 @@
 # Fortune
 
-[![Build Status](https://travis-ci.org/mdwheele/fortune.png?branch=master)](https://travis-ci.org/mdwheele/fortune)
-
 Fortune is a PHP Package for generating random fortunes similar to UNIX's fortune command.  In fact, it's database
 of fortunes is built from fortune files from various systems.
 
@@ -13,6 +11,22 @@ Install through Composer.
 "require": {
     "mdwheele/fortune": "dev-master"
 }
+```
+
+## Usage
+
+```php
+<?php
+
+require './vendor/autoload.php';
+
+echo \Cvar1984\Fortune\Fortune::make();
+```
+
+## testing
+
+```sh
+composer test
 ```
 
 ## Attributions
