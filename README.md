@@ -9,7 +9,7 @@ Install through Composer.
 
 ```js
 "require": {
-    "mdwheele/fortune": "dev-master"
+    "Cvar1984/fortune": "^1.0"
 }
 ```
 
